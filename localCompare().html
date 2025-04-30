@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LocalCompare</title>
+</head>
+<body>
+
+  <script>
+      let str1 = "Hello World";
+      let str2 = "Hello World";
+      let str3 = "Hello";
+      let str4 = "Helo";
+      let str5 = "Hi";
+
+      console.log(str1.localeCompare(str2))
+      console.log(str2.localeCompare(str3))
+      console.log(str3.localeCompare(str4))
+      console.log(str3.localeCompare(str5))
+      console.log(str4.localeCompare(str5))
+
+      // 1.->0 true
+      // 2.->1 false
+      // 3.->-1 false
+      // 4.->-1 false
+
+  </script>
+
+</body>
+</html>
